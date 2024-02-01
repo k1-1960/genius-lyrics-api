@@ -1,34 +1,45 @@
 {
-	"name": "genius-lyrics-api",
-	"version": "3.2.0",
-	"main": "index.js",
-	"author": {
-		"name": "Faisal Arshed",
-		"url": "https://github.com/farshed"
-	},
-	"contributors": [
-		{
-			"name": "Garlicvideos",
-			"url": "https://github.com/Garlicvideos"
-		}
-	],
-	"license": "MIT",
-	"dependencies": {
-		"axios": "^0.27.2",
-		"cheerio-without-node-native": "0.20.2"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/farshed/genius-lyrics-api.git"
-	},
-	"keywords": [
-		"genius",
-		"lyrics",
-		"album-art",
-		"scraper",
-		"genius-lyrics",
-		"genius-album-art",
-		"genius-api",
-		"lyrics-scraper"
-	]
+  "name": "@k11960/genius-lyrics-api",
+  "version": "3.2.1",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "directories": {
+    "lib": "./lib"
+  },
+  "author": {
+    "name": "Faisal Arshed",
+    "url": "https://github.com/farshed"
+  },
+  "contributors": [
+    {
+      "name": "Garlicvideos",
+      "url": "https://github.com/Garlicvideos"
+    },
+    {
+      "name": "K1-1960",
+      "url": "https://github.com/k1-1960"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/farshed/genius-lyrics-api.git"
+  },
+  "keywords": [
+    "genius",
+    "lyrics",
+    "album-art",
+    "scraper",
+    "genius-lyrics",
+    "genius-album-art",
+    "genius-api",
+    "lyrics-scraper"
+  ]
 }

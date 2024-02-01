@@ -8,3 +8,5 @@ buck-out/
 \.buckd/
 *.keystore
 yarn.lock
+src/
+!lib/
